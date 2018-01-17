@@ -11,5 +11,12 @@ return [
 		],
 	],
 
+	'events' => [
+		'github' => [
+			'created' => \App\Events\Social\GithubAccountWasLinked::class,
+		],
+
+	],
+
 	
 ];
